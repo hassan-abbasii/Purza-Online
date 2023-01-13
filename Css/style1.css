@@ -1,0 +1,296 @@
+/* DASHBOARD CSS */
+
+.container {
+    margin-top: 120px;
+}
+
+.card {
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#num {
+    margin-left: 75px;
+    margin-top: 12px;
+    font-size: xx-large;
+}
+
+#alpha {
+    margin-top: 15px;
+    margin-left: 39px;
+    font-size: large;
+}
+
+#receive {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+}
+
+/* CARD 2 CSS */
+
+#card1 {
+    margin-left: 80px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#num1 {
+    margin-left: 75px;
+    margin-top: 28px;
+    font-size: xx-large;
+}
+
+#alpha1 {
+    margin-top: 15px;
+    margin-left: 45px;
+    font-size: large;
+}
+
+/* CARD 3 CSS */
+
+#card2 {
+    margin-left: 80px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#num2 {
+    margin-left: 75px;
+    margin-top: 28px;
+    font-size: xx-large;
+}
+
+#alpha2 {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: large;
+}
+
+/* CARD 4 CSS */
+
+#card3 {
+    margin-left: 74px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#num3 {
+    margin-left: 75px;
+    margin-top: 28px;
+    font-size: xx-large;
+}
+
+#alpha3 {
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: large;
+}
+
+
+/* MECHANIC PAGE CSS */
+
+
+.btn {
+    margin-right: 0px;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 50px;
+}
+
+#mynavbar li {
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: all 0.9s linear;
+    position: relative;
+}
+
+#mynavbar li::after {
+    transition: all 0.1s linear;
+}
+
+#mynavbar li:hover {
+    background-color: lightgrey;
+}
+
+#mynavbar li:hover::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    left: 0;
+
+    background-color: #fca311;
+    position: absolute;
+    padding: none;
+}
+
+#mynavbar button {
+    border: 2px solid #fca311;
+    color: black;
+    padding: 4px 6px;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+#mynavbar button:hover {
+    background-color: #fca311;
+    color: white;
+}
+
+.dealer {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    box-shadow: 5px 2px 15px 5px #e5e5e5;
+
+}
+
+.searchbox input {
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.searchbox input.active {
+    border: none;
+    background-color: blue;
+}
+
+.searchbox {
+    background-color: #fff8f0;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.searchbox button {
+    background-color: #fca311;
+    border: 1px solid #fca311;
+    font-weight: bold;
+}
+
+.searchbox button:hover {
+    background-color: white;
+    color: #fca311;
+    border: 1px solid #fca311;
+}
+
+.card img {
+    height: 120px;
+}
+
+.userd {
+    display: flex;
+
+}
+
+.cards {
+    color: grey;
+    display: flex;
+    align-items: baseline;
+}
+
+.dp {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dp img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    margin-top: -15px;
+    margin-right: -30px;
+}
+
+.productSearch {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff8f0;
+    border-radius: 10px;
+    border: 1px solid grey;
+    justify-content: center;
+
+}
+
+.productSearch table {
+    width: 60%;
+    border: 1px solid grey;
+}
+
+.productSearch tr,
+td,
+th {
+
+    border: 1px solid grey;
+}
+
+.productSearch select {
+    width: 100%;
+}
+
+.productSearch button {
+    height: 70%;
+    text-align: center;
+}
+
+#borderr{
+    border: none;
+}
+
+/* MECHANIC PAGE FOOTER SECTION CSS */
+#quicklinks a {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+#quicklinks a:hover {
+    color: white;
+}
+
+/* SIDE BAR CSS */
+
+#side_nav{
+    background: #000;
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.2s;
+}
+
+.content{
+    min-height: 100vh;
+    width: 100%;
+}
+
+hr.h-color{
+    background: blue;
+}
+
+.sidebar li:hover{
+    background: #fca311;
+    border-radius: 8px;
+}
+.sidebar li.active{
+    background: #fca311;
+    border-radius: 8px;
+}
+
+.sidebar li.active a, .sidebar li.active a:hover{
+    color: #eee;
+}
+
+.sidebar li a{
+    color: #eee;
+}
+
+@media(max-width: 767px){
+    #side_nav{
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100%;
+        z-index: 1;
+    }
+
+    #side_nav.active{
+        margin-left: 0%;
+
+    }
+}

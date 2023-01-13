@@ -1,0 +1,80 @@
+.back{
+	height: 100px;
+	background-color: #fca311;
+
+}
+.userp img{
+height: 100px;
+width: 100px;
+
+background-color: white;
+border-radius: 50% ;
+margin-top: -50px;
+margin-left:30%;
+
+}
+.userp p{
+	margin-left:20px;
+	color: white;
+}
+.userp .fa-star{
+	color: #FFD700;
+}
+.userp label{
+	color: white;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.userp .btn{
+	float: right;
+	margin-right: 10px;
+}
+.cont{
+	overflow-y: auto;
+	max-height:590px;
+	min-height: 590px;
+	background-color: #e5e5e5;
+}
+.cont-user{
+	border: 1px solid grey;
+	margin:10px 10px 10px 10px;
+	-webkit-box-shadow: 0 0 10px grey;
+}
+.userp{
+	border:1px solid grey;
+	height:500px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: black;
+	-webkit-box-shadow: 0 0 10px grey;
+
+}
+.dash-cont{
+	max-height:590px;
+	min-height: 590px;
+}
+.dash{
+ border-top:1px solid #fca311;
+	background-color:black;
+	min-width:250px;
+	max-width: 250px;
+}
+.dash h2{
+	color:white;
+	text-align: center;
+}
+.dash ul,li,a{
+	color:white;
+}
+.dash a:hover{
+	background-color: #fca311;
+	border-radius: 10px;
+	color: white;
+}
+.dash a.active{
+	background-color: #fca311;
+	border-radius: 10px;
+	color: white;
+}
